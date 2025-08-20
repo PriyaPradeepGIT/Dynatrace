@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.optum.pbmcore-claims</groupId>
+	<artifactId>pbmcore-claim-common-api</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>17</java.version>
+	</properties>
+
+	<modules>
+		<module>grpc-common-api</module>
+		<module>grpc-common-error-api</module>
+		<module>grpc-backbone-api</module>
+		<module>grpc-backbone-onprem-api</module>
+		<module>grpc-claim-canonical-composer-api</module>
+		<module>grpc-mtd-api</module>
+		<module>grpc-rx-egress-api</module>
+		<module>grpc-route-remap-config-api</module>
+		<module>grpc-rxclaim-data-retrieval-api</module>
+		<module>grpc-tcp-client-connector-api</module>
+		<module>grpc-transaction-routing-config-api</module>
+        <module>grpc-claim-txn-data-persist-queue-api</module>
+
+		<module>rest-common-api</module>
+		<module>rest-admin-listdata-api</module>
+		<module>rest-claim-sot-api</module>
+		<module>rest-claim-transaction-api</module>
+		<module>rest-claim-txn-data-persist-queue-api</module>
+		<module>rest-common-configdata-api</module>
+		<module>rest-consumer-config-api</module>
+		<module>rest-data-queue-api</module>
+		<module>rest-e2e-test-comparator-api</module>
+        <module>rest-e2e-test-driver-api</module>
+		<module>rest-e2e-test-report-api</module>
+		<module>rest-epp-router-control-api</module>
+		<module>rest-link-transaction-response-api</module>
+		<module>rest-mtd-api</module>
+		<module>rest-remap-control-api</module>
+		<module>rest-router-control-api</module>
+		<module>rest-rx-gate-api</module>
+		<module>rest-rx-point-api</module>
+		<module>rest-rxclaim-data-retrieval-api</module>
+		<module>rest-rxparallel-driver-api</module>
+		<module>rest-tcp-client-connector-api</module>
+		<module>rest-traffic-details-api</module>
+        <module>rest-ncpdp-request-and-response-api</module>
+        <module>rest-rubi-api</module>
+		<module>rest-test-suite-rx-import-persist</module>		
+    </modules>
+</project>
